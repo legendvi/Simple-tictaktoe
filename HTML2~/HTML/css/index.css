@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* The CSS for entire body */
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: black;
+    line-height: 1.8;
+}
+/* The CSS for the header */
+#header{
+    background-size: cover;
+    background-position: center;
+    background: url("");
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+}
+/* The CSS for h1 of the header */
+#header h1{
+    font-size: 50px;
+    line-height: 1.2px;
+
+}
+/* The CSS for p tag of the header */
+#header p{
+    font-size: 20px;
+}
+/* Default button style */
+#header .button{
+    font-size: 18px;
+    text-decoration: none;
+    color: blueviolet;
+    border: red 1px solid;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+/* Button style when it is being hovered */
+#header .button:hover{
+    background: greenyellow;
+    color: indigo;
+}
+/* The css of the intro tag */
+#intro{
+    padding: 20px;
+    background: grey;
+    color: whitesmoke;
+    text-align: center;
+}
+/* The about section styling */
+#about{
+    padding: 20px;
+    background: wheat;
+    text-align: center;
+}
+/* The end column */
+#end{
+    display: flex;
+}
+/* styling for info1 */
+#end div{
+    padding: 50px;
+}
+/* the styling for info1 and info3 */
+#end .info1, #end .info3{
+    background: violet;
+    color: yellow;
+}
+/* the styling for the info2 */
+#end .info2{
+    background: #40e0d0;
+}

@@ -1,0 +1,252 @@
+/* body  */
+body {
+  padding: 0;
+  margin: 0;
+}
+.margin {
+  padding-left: 10rem;
+  padding-right: 10rem;
+  margin-right: 0;
+}
+/* section Intro-Menu */
+#intro {
+  background-color: rgb(39, 35, 35);
+  width: 100vw;
+  height: 100vh;
+}
+#intro a {
+  text-decoration: none;
+  color: white;
+  padding: 1.2rem;
+}
+#intro ul {
+  display: inline-block;
+}
+#intro li {
+  list-style-type: none;
+  display: inline-block;
+  font-size: 1.2rem;
+}
+/* section Intro Titile */
+#name {
+  display: flex;
+  height: 70%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#name h1 {
+  color: whitesmoke;
+  font-size: 3.7rem;
+  font-family: sans-serif;
+}
+
+#name p {
+  color: whitesmoke;
+  font-size: 2rem;
+  font-family: sans-serif;
+  margin-top: 0;
+}
+/* aSection about-------------------------------- */
+#about {
+  width: 100vw;
+  height: auto;
+}
+/* about photo */
+#photo {
+  float: right;
+  height: 70%;
+  width: 30%;
+  margin-top: -15%;
+}
+/* paragraphs */
+#para1 {
+  width: 60%;
+  display: inline-block;
+  margin-top: 10%;
+  margin-left: 2.2rem;
+}
+
+#para2 {
+  width: 60%;
+  display: inline-block;
+  margin-left: 2.2rem;
+}
+
+#para1 h1,
+#para2 h1 {
+  font-size: 3.1rem;
+}
+#para1 p,
+#para2 p {
+  font-size: 1.7rem;
+}
+
+/* about Buttons */
+
+#btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#btns a {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.7rem;
+  border-radius: 10px;
+  width: 15%;
+  height: 2.7rem;
+  margin-bottom: 5%;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  margin-left: 1rem;
+  padding: 0.4rem;
+  text-align: center;
+  padding-right: 2.2rem;
+}
+
+#wiki {
+  background-color: rgb(131, 125, 125);
+  color: rgb(34, 31, 31);
+}
+
+#video {
+  background-color: red;
+  color: whitesmoke;
+}
+
+#book {
+  background-color: rgb(202, 142, 30);
+  color: whitesmoke;
+}
+
+/* Quote Section */
+#quote {
+  background-color: black;
+  width: 100vw;
+}
+#quotediv {
+  background-color: black;
+  width: 100%;
+  height: 200px;
+  color: white;
+  font-size: 1.7rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Section-Awards */
+
+#awarddiv {
+  width: 100vw;
+  margin-top: 9%;
+  border-top: 1px solid black;
+  text-align: center;
+  margin-bottom: 10%;
+}
+#awardTitle {
+  margin-top: -23px;
+}
+#awardTitle h1 {
+  display: inline;
+  font-size: 2.2rem;
+  background-color: white;
+  z-index: 1;
+}
+
+.awardContainer {
+  width: 20%;
+  /* display: inline-block; */
+  height: 12rem;
+  border: 0.7px solid rgb(233, 228, 228);
+  margin: 20px;
+
+  float: left;
+  text-align: left;
+  border-radius: 5px;
+}
+#award1 {
+  margin-left: 5rem;
+}
+.awardmain {
+  display: flex;
+  justify-content: center;
+}
+.awardh1,
+.awardpara1,
+.awardpara2 {
+  margin-left: 0.7rem;
+}
+.awardpara1 {
+  margin-top: 0;
+  color: rgb(192, 189, 189);
+}
+
+.awardpara2 {
+  color: grey;
+}
+
+/* Section Poem */
+
+#poem {
+  border-top: 1px solid black;
+  height: 35rem;
+  width: 100vw;
+}
+.poemMain {
+  width: 50%;
+  float: left;
+  margin-bottom: 8%;
+}
+.poemh1 {
+  display: inline-block;
+  margin-left: 20%;
+  font-size: 2.2rem;
+  margin-top: -5%;
+  margin-bottom: 10%;
+  background-color: white;
+}
+
+.poemList {
+  margin-left: 12%;
+  font-size: 1.2rem;
+}
+/* Section Contact */
+#contact {
+  background-color: rgb(34, 29, 29);
+  width: 100vw;
+}
+#contactdiv {
+  display: flex;
+  background-color: rgb(34, 29, 29);
+}
+#contactMain {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  margin: 3.3rem;
+}
+
+.contactContent {
+  background-color: rgb(34, 29, 29);
+  color: white;
+  float: inline-start;
+  height: 10rem;
+  border-right: 1px solid rgb(92, 90, 90);
+  padding-left: 2rem;
+}
+#content3 {
+  border: none;
+}
+
+.contactInnerPara {
+  color: grey;
+}
+.contactInnerPara2 {
+  color: rgb(150, 150, 216);
+}
